@@ -1,5 +1,6 @@
 ### Natural expressions
 
+Work in progress.
 
 In contrast to regular expressions, this could be named natural expressions.
 
@@ -20,6 +21,12 @@ The second one would be recognized by this machine,
 and matches and extracts with the % the date as well. It's a bad example, 
 but the way to match is more or less inverted - match x times all nondigits `{*\D}`, 
 extract all following chars, until a space or line end is recognized (#).
+
+Addendum - I mistakenly used an example of a the "extended matching engine".
+However, I'm not happy with the extended expression machine at all yet.
+And going to change some things within the simple matching engine.
+So - it's work in progress.
+
 
 There are two big advantages - it is closer to human thoughts.
 Noone says apples, two of them. There are two apples.
