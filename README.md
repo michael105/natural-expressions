@@ -42,7 +42,7 @@ I upload the "simple" matching engine for now, have to finish the extended versi
 text matching engine
 
 little bit simpler version than match_ext.
-Consciusly named 'text matching', since the inherent logic
+Consciously named 'text matching', since the inherent logic
 is quite different to a regular expression machine.
 
 The engine matches nongreedy straight from left to right,
