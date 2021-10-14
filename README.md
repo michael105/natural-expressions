@@ -35,6 +35,16 @@ If you are common with regular expressions, it is just - the other way round.
 
 I upload the "simple" matching engine for now, have to finish the extended version first.
 
+A few nonextensive benchmarks show,
+this engine is a bit faster than perl's regular expression machine,
+slower than gnu grep (around factor2), and has the same speed as sed.
+This might however vary with each usecase.
+In favor of codesize I'm not going to optimize,
+but there would be several possibilities, if you'd need a faster engine.
+(Albite I'd like to emphasise, sed (and match), also perl, are quite fast.
+About 10 times faster than most expression engines.)
+
+
 ---
 
 
